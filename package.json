@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "description": "Testing web app",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "latest",
+    "punycode": "^1.4.1"
+  },
+  "dependencies": {
+    "aws-amplify": "^5.3.18",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1"
+  }
+}
